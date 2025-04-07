@@ -17,7 +17,7 @@ public class TelegramMessageService implements MessageService {
 
     @Override
     public void sendTelegramMessage(TelegramMessage telegramMessage) {
-        System.out.println("Sending Telegram Message from user with identifier : " + telegramMessage.getSourceTelegramId() + "to user with identifier : " + telegramMessage.getTargetTelegramId());
+        System.out.println("Sending Telegram Message from user with identifier : " + telegramMessage.getSourceTelegramId() + " to user with identifier : " + telegramMessage.getTargetTelegramId());
         System.out.println("The message content is : " + telegramMessage.getContent());
     }
 
